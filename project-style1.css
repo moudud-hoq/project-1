@@ -1,0 +1,294 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header{
+    padding: 20px;
+    height: 70px;
+    text-align: center;
+    font-size:30px ;
+    background-color: blue;
+    background: linear-gradient(50deg, rgb(211, 211, 211) 0%, rgb(226, 226, 226) 49%, rgb(224, 224, 224) 100%);
+    /*background-image:url(Images/t4.jpg);
+    background-size: cover;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    background-position: center;*/
+}
+
+
+/* ---------------Navbar----------------*/
+.top-nav {
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    padding: 25px;
+    gap: 25px;
+    background-image: linear-gradient(50deg, rgb(106, 148, 195) 0%, rgb(196, 196, 196) 49%, rgb(120, 158, 204) 100%);
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+
+
+/*-------------Travel Intro------------------*/
+.intro-section {
+    background-image: url(Images/t4.jpg);
+    background-size: cover;
+    background-position: center;
+    opacity: 0.9;
+    height: 500px;
+    text-align: center;
+    padding: 100px;
+}
+
+.intro-title{
+    text-align: center;
+    color: brown;
+    
+}
+
+.button-area{
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.btn1{
+    background-color: transparent;
+    padding: 0 10px;
+}
+.btn1:hover{
+    background-image: linear-gradient
+    (50deg, rgb(255, 72, 231) 0%,
+     rgb(255, 255, 255) 49%, rgb(176, 160, 140) 100%);
+    box-shadow: 0 3px 6px rgba(0, 0, 0, .16), 
+                0 3px 6px rgba(0, 0, 0, .23);    
+    transition: 1s;
+    border-radius: 150px 155px 155px 155px;
+    transform: translate(0px, -8px);
+
+}
+.btn2{
+    background-color: slategrey;
+    margin-left: 10px;
+    padding: 15px 10px;
+}
+
+.btn2:hover{
+    background-color: yellow;
+    transition: .8s;
+}
+
+/*------------------Contact Form--------------*/
+.top-form {
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 20px;
+    gap: 15px;
+    background-image: linear-gradient(50deg, rgb(172, 157, 140) 0%, rgb(177, 152, 133) 49%, rgb(176, 160, 140) 100%);
+    border-top: 5px rgb(66, 77, 38);
+    box-shadow: 0px -5px 10px rgba(66, 77, 38, 5)0.9;
+}
+
+@media only screen and (max-width:700px) {
+    .top-form {
+        display: flex;
+        justify-content: center;
+        height: 100px;
+    }
+}
+
+.input-area {
+    display: flex;
+
+    gap: 5px;
+}
+
+
+
+/* ======================Image-section ===============*/
+.travel-details{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin: 50px 0;
+}
+
+.title{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 0;
+}
+.ti-title1{
+    color: rgb(80, 80, 80);
+    font-size: larger;
+    margin: 10px 0 0 0;
+}
+.ti-title2{
+    color: black;
+    font-size: xx-large;
+    margin: 10px 0 0 0;
+
+}
+h3 {
+    text-align: center;
+    font-size: 30px;
+    margin: 0;
+    padding-top: 10px;
+}
+
+.travel-images{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.content{
+    margin: 15px;
+    max-width: 330px;
+    box-sizing: border-box;
+    float: left;
+    text-align: center;
+    border-radius: 20px;
+    cursor: pointer;
+    padding-top: 10px;
+    box-shadow: 0 14px 28px rgba(0, 0, 0, .25), 0 10px 10px rgba(0, 0, 0, .22);
+    transition: .4s;
+    background: #f2f2f2;
+}
+
+.content:hover{
+    box-shadow: 0 3px 6px rgba(0, 0, 0, .16), 0 3px 6px rgba(0, 0, 0, .23);
+    transform: translate(0px, -8px);
+}
+
+img{
+    max-width: 300px;
+    text-align: center;
+    margin: 0 auto;
+    display: inline-block;
+    border-radius: 5px;
+    background-position: center;
+}
+
+p{
+    text-align: center;
+    color: #610064;
+    padding-top:0 8px;
+    margin: 10px 20px;
+}
+
+h6{
+    font-size: 26px;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    margin: 0;
+}
+
+.checked{
+    text-align: center;
+    font-size: 20px;
+    color: #ffffff;
+    padding: 15px;
+    width: 100%;
+    border: 0;
+    outline: none;
+    cursor: pointer;
+    margin-top: 5px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    background-image: linear-gradient(50deg, rgb(153, 138, 0) 0%, rgb(3, 80, 94) 49%, rgb(5, 25, 116) 100%);
+    box-shadow:  0 3px 6px rgba(0, 0, 0, .16), 0 3px 6px rgba(0, 0, 0, .23);*/
+}
+
+.checked:hover{
+    background-color: #610064;
+}
+
+/* ==========Security Area =================== ******** */
+h2 {
+    text-align: center;
+    font-size: 30px;
+    margin: 20px;
+}
+
+.icon{
+    background-image: url(Images/t2.jpg);
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    width: 100%;
+    margin: 50px 0;
+}
+
+h5{
+    font-size: 26px;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    margin: 10px;
+}
+
+.icon-details{
+    margin: 15px;
+    max-width: 330px;
+    box-sizing: border-box;
+    float: left;
+    text-align: center;
+    border-radius: 20px;
+    cursor: pointer;
+    padding-top: 10px;
+    background-color: rgb(245, 242, 242);
+    box-shadow: 0 10px 8px 1px rgba(0, 0, 0, 0.363), 0 10px 10px rgba(0, 187, 0, 0.22);
+    transition: .4s;
+}
+
+.icon-details:hover{
+    box-shadow: 0 3px 6px rgba(0, 0, 0, .16), 0 3px 6px rgba(0, 0, 0, .23);
+    transform: translate(0px, -38px);
+}
+
+.fa-search,
+.fa-landmark,
+.fa-circle-info {
+    margin: 0 10px;
+    padding: 30px;
+    height: 10px;
+}
+
+
+.travel-partners{
+    width: 100%;
+    margin: 50px 0;
+}
+
+.tp1{
+    background-color: #610064;
+}
+.tpt1{
+    text-align: center;
+}
+.tpt2{
+    text-align: center;
+}
+.tp2{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    justify-items: center;
+}
+
+.logo{
+    background-color: blueviolet;
+}
