@@ -1,7 +1,6 @@
 * {
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
 }
 header {
     text-align: center;
@@ -12,25 +11,26 @@ header {
 
 /* ======================== Nav ====================== */
 ul {
-
-    list-style-type: none;
-    overflow: hidden;
-    background-color: #333;
+    list-style: none;
+    background-color: #180318;
+    padding: 0;
+    margin: 0;
+    text-align: center;
 }
 
 li {
-    float: left;
-    border-right:1px solid #bbb;
+    display: inline-block;
+    margin: 0 auto;
+    padding: 10px;
 }
 
-li:last-child {
-    border-right: none;
-}
-
-li a {
-    display: block;
-    color: white;
+a {
     text-decoration: none;
-    text-align: center;
-    padding: 14px 16px;
+    color: rgb(255, 255, 255);
+    width: 100px;
+
 }
+
+
+
+

@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        header{
+            text-align: center;
+            font-size: xx-large;
+        }
+
+        label{
+            display: block;
+            margin-top: 10px;
+        }
+        fieldset{
+            margin: 20px;
+        }
+
+    </style>
+    <title>Form</title>
+</head>
+<body>
+    <header>HTML Form</header>
+<main>
+    <section>
+        <h1>Mobile Form</h1>
+        <form>
+            <label for="name">Your Name:
+                <input type="text" name="" id="name" placeholder="Your Name">
+            </label>
+            <label for="email">Your Email:
+                <input type="email" name="" id="email" placeholder="Your Email">                
+            </label>
+            <label for="contact">Your Mobile:
+                <input type="number" name="" id="number"
+                placeholder="Your Mobile Number">
+            </label>
+            <fieldset>
+                <legend>Picup Your Mobile</legend>
+                <label for="xiaomi">
+                    <input type="radio" id="xiaomi" name="">Xiaomi
+                </label>
+                <label for="realme">
+                    <input type="radio" name="" id="realme">Realme
+                </label>
+                <label for="google pixel">
+                    <input type="radio" name="" id="google-pixel"> Google Pixel
+                </label>
+            </fieldset>
+            <fieldset>
+                <legend>Picup one or more</legend>
+                <label for="xiaomi">
+                    <input type="checkbox" id="xiaomi" name="">Xiaomi
+                </label>
+                <label for="realme">
+                    <input type="checkbox" name="" id="realme">Realme
+                </label>
+                <label for="google pixel">
+                    <input type="checkbox" name="" id="google-pixel"> Google Pixel
+                </label>
+                <label for="walton">
+                    <input type="checkbox" id="walton">
+                    Walton
+                </label>
+            </fieldset>
+            <fieldset>
+                <legend>Special Comment</legend>
+                <label for="comment">
+                    <textarea name="name" id="" cols="50" rows="5">Write Your Comment..............</textarea>
+                </label>
+            </fieldset>
+            <input type="reset" value="reset">
+            <input type="button" value="submit">
+            
+
+
+        </section>
+        </form>
+</main>
+</body>
+</html>
