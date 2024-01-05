@@ -1,0 +1,55 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+/*================== Header Area ===================*/
+
+header{
+    text-align: center;
+    font-size: xx-large;
+    background-color: azure;
+    padding: 15px;
+}
+
+/*================== Nav Area ===================*/
+
+nav{
+    margin-top: 10px;
+}
+
+nav > ul {
+    display: flex;
+}
+
+nav  li {
+    list-style: none;
+    margin-right: 10px;
+    padding: 5px;
+}
+
+nav li a {
+    text-decoration: none;
+    color: black;
+}
+
+nav li:hover {
+    background-color: steelblue;
+}
+
+
+/*================== Table Area ===================*/
+table{
+    margin: 0 auto;
+    border-collapse: collapse;
+}
+td, th{
+    border: 1px solid black;
+    padding: 5px 10px;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 15px;
+    background-color: slategrey;
+}

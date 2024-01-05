@@ -1,0 +1,50 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+/*================== Header Area ===================*/
+
+header{
+    text-align: center;
+    font-size: xx-large;
+    background-color: azure;
+    padding: 15px;
+}
+
+/*================== Nav Area ===================*/
+
+nav{
+    margin-top: 10px;
+}
+
+nav > ul {
+    display: flex;
+}
+
+nav  li {
+    list-style: none;
+    margin-right: 10px;
+    padding: 5px;
+}
+
+nav li a {
+    text-decoration: none;
+    color: black;
+}
+
+nav li:hover {
+    background-color: steelblue;
+}
+
+/* Nested Menu Styles */
+nav li .dropdown {
+    display: none;
+    position: absolute;
+    padding-left: 10px;
+}
+
+nav li:hover > .dropdown {
+    display: block;
+    transition: -1s;
+}
